@@ -1,0 +1,58 @@
+.plan-item {
+      border-radius: 16px;
+    padding: 20px 16px 6px;
+    border: 1px solid #FF6C00;
+}
+
+.plan-item__title {
+     
+}
+
+.plan-item__checkbox {
+
+}
+
+.plan-item__name {
+   color: #FF6900;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 28px;
+
+}
+
+.plan-item__amount {
+  color: #FF6C00;
+}
+
+.plan-item__intro {
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+/* or 141% */
+
+letter-spacing: -0.41px;
+}
+
+.plan-item__control {
+  display: flex;
+
+  padding: 15px 0;
+}
+
+.plan-item__detail {
+font-weight: 600;
+font-size: 17px;
+line-height: 24px;
+color: #FF6C00;
+
+letter-spacing: -0.41px;
+}
+
+.plan-item__space {
+  flex: 1;
+
+}
+
+.plan-item__button {
+
+}

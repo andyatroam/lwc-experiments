@@ -1,0 +1,26 @@
+<template>
+
+<div class="plan-item">
+  <div class="plan-item__title">
+    <lightning-input class="plan-item__name" type="checkbox" label="24 x Monthly payments" name="input1"></lightning-input>
+    <div class="plan-item__checkbox">
+    </div>
+    <div class="plan-item__name">24 x Monthly payments</div>
+  </div>
+  <div class="plan-item__intro">
+    <span class="plan-item__amount">$X00.00</span> today then <br/>  
+    <span class="plan-item__amount">$62.11</span> Monthly + fees</div>
+  <div class="plan-item__control">
+    <div class="plan-item__detail">Hide details</div>
+    <div class="plan-item__space"></div>
+    <div class="plan-item__button">
+      <!-- <template if:true={expaned}> -->
+        <svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+         <path d="M0.687469 6.80411C0.957469 7.11411 1.43747 7.1441 1.74747 6.8641L6.73746 2.41412L11.7475 6.8641C12.0575 7.1441 12.5275 7.11411 12.8075 6.80411C13.0875 6.49411 13.0575 6.02411 12.7475 5.74411L7.72745 1.28412C7.44745 1.03412 7.09747 0.914122 6.74747 0.914122C6.39747 0.914122 6.04746 1.03412 5.76746 1.28412L0.747466 5.7341C0.437466 6.0241 0.407469 6.49411 0.687469 6.80411Z" fill="#FF6C00"></path>
+        </svg>
+      <!-- </template> -->
+    </div>
+  </div>
+  <slot></slot>
+</div>
+</template>
