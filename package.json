@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/andyatroam.lwc-l2uwvaey",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve Gm9Nj7RRCWpPhebTXUtJ --open"
+  }
+}

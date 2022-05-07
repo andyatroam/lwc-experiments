@@ -1,0 +1,19 @@
+.header-wrapper {
+  padding: 24px 20px;
+}
+
+.header-purchase-desc {
+  font-size: 32px;
+}
+
+.amount-valu-decimals {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.amount-text {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}
