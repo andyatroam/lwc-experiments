@@ -24,13 +24,19 @@
 			Developer Guide
 		</a><br/>
 		<a href="https://developer.salesforce.com/docs/component-library/overview/components">Component Reference</a>
+		<hr />
+		<h1>Purchase Journey</h1>
 		<div>
-			<h1>My Tests</h1>
-			<c-child label="hello">test</c-child>
+			<h1>Purchase Header & Amount</h1>
+			<hr />
 			<c-purchase-header label="This is title" show-back-button="true"></c-purchase-header>
 			<c-purchase-amount label="Your Big Things" unit="#" amount="99.99" ></c-purchase-amount>
 		</div>
-
+		<div>
+			<h1>Purchase Plan Item</h1>
+			<hr />
+			<c-purchase-plan-item expanded="true"></c-purchase-plan-item>
+		</div>
 	</div>
 
 </template>
